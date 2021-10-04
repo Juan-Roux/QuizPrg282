@@ -20,7 +20,7 @@ namespace QuizPrg282
         
         private void btnRead_Click(object sender, EventArgs e)
         {
-
+            lsbMessage.Items.AddRange(File.ReadAllLines("Employees.txt"));
         }
     }
 }
